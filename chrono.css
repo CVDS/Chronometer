@@ -1,0 +1,62 @@
+body {
+	background-image:url('chrono_portrait.jpg');
+	background-repeat:no-repeat;
+	}
+p{
+padding-left:20px;
+font-size:90px;
+}
+button{
+    width: 80px;
+	height: 40px;
+	margin-top:90px;
+	margin-left: 10px;
+}
+#startButton{
+	margin-left: 10px;
+}
+
+@media screen and (orientation: portrait){
+body {
+	background-image:url('chrono_portrait.jpg');
+	}
+p{
+padding-left:25%;
+font-size:90px;
+}
+button{
+    width: 80px;
+	height: 40px;
+	margin-top:90px;
+	margin-left: 5%;
+}
+#startButton{
+	margin-left: 5%;
+}
+}
+@media screen and (orientation: landscape) and (max-width:480px) {
+body {
+	background-image:url('chrono_landscape.jpg');
+	}
+
+button{
+
+    width: 80px;
+	height: 40px;
+	display: block;
+    vertical-align: middle;
+}
+p{
+padding-left:70%;
+
+}
+#buttonBox{
+float: left;
+margin-right: 200px;
+}
+#textBox{
+float: right;
+width: 200px;
+}
+
+}
