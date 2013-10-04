@@ -40,23 +40,27 @@ body {
 	}
 
 button{
-
-    width: 80px;
-	height: 40px;
 	display: block;
     vertical-align: middle;
+	margin-top:20px;
+	margin-left:10px;
 }
 p{
 padding-left:70%;
-
-}
-#buttonBox{
-float: left;
-margin-right: 200px;
+padding:auto;
 }
 #textBox{
 float: right;
 width: 200px;
+height: 250px;
+margin-right:50px;
 }
+#buttonBox{
+width: 200px;
+height: 250px;
+float: left;
+margin-top:50px;
+}
+
 
 }
