@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrawFree</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="newButton">button1</string>
+    <string name="paintButton">button2</string>
+    <string name="eraseButton">button3</string>
+    <string name="fbButton">button4</string>
+    
+    <string name="brownButton">button4</string>
+    <string name="redButton">button4</string>
+    <string name="yellowButton">button4</string>
+    <string name="greenButton">button4</string>
+    <string name="blueButton">button4</string>
+    <string name="blackButton">button4</string>
+</resources>
